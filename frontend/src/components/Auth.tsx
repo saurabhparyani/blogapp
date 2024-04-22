@@ -35,9 +35,6 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
     }
 
     return <div className="h-screen flex justify-center flex-col">
-        <div className="flex justify-end text-5xl">
-            Welcome to Blog
-        </div>
         <div className="flex justify-center">
             <div>
                 <div className="px-10">
